@@ -1,5 +1,6 @@
 import streamlit as st
-from ..genai_client import GenAIClient
+from genai_client import GenAIClient
+
   # ✅ no more utils path issue
 
 st.set_page_config(page_title="Gemini Chatbot", page_icon="🤖")
